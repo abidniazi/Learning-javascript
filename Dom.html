@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="heading">this is heading </h1>
+    <h3 class="subheading">this is sub heading </h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto incidunt debitis a quibusdam delectus! Perferendis, accusantium fugit quaerat necessitatibus, unde numquam placeat aspernatur vitae deserunt impedit id odit dolore pariatur?</p>
+</body>
+<script>
+    let a=document.querySelector(".subheading")
+   
+      a.innerHTML="changed heading"
+      a.style.backgroundColor="red"
+      a.addEventListener("click",()=>{
+      a.innerHTML="after click"
+      })
+     console.log(a)
+</script>
+</html>
