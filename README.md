@@ -3,4 +3,4 @@
 <li>Asynch</li>
 <li>DOM</li>
 <li>Problems </li>
-<li>Basic Question</li>
+<li>Basic Syntax</li>
